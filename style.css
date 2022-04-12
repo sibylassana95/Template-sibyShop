@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+     background: #FFCB60;
+}
+
+nav {
+    width: ;
+    height: 10vh;
+    background: #FFCB60;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+i {
+    transform: scale(1.2);
+}
+#acceuil2{
+    width: 900px;
+    height: 10vh;
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+     box-shadow: 1px 2px 45px #1c1a19;
+     
+}
+
+#corp {
+    width: 900px;
+    margin: auto;
+    box-shadow: 1px 2px 45px #1c1a19;
+    display: flex;
+    justify-content: space-around;
+    background: orange;
+   padding: 14px;
+    flex-wrap: wrap;
+}
+.element{
+    width: 250px;
+  height: 300px;
+  background-color: #FFFFFF;
+   box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+.element:nth-child(1) {
+    order: 1;
+   
+}
+
+.element:nth-child(2) {
+    order: 2;
+    
+}
+
+.element:nth-child(3) {
+    order: 3;
+    
+}
+.minidiv1{
+    width: 190px;
+  height: 150px;
+  background-color: orange;
+   box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:30px;
+}
+
+#corp1 {
+    width: 900px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    background: ;
+   padding: 14px;
+    flex-wrap: wrap;
+}
+.element1{
+    width: 250px;
+  height: 300px;
+  background-color: #FFFFFF;
+   box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    text-align: center
+    
+}
+.element1:nth-child(1) {
+    order: 1;
+    
+}
+
+.element1:nth-child(2) {
+    order: 2;
+    
+}
+
+.element1:nth-child(3) {
+    order: 3;
+    
+}
+.minidiv2{
+    width: 190px;
+  height: 150px;
+  background-color: orange;
+   box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    margin: auto;
+     margin-top:30px;
+}
